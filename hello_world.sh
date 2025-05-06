@@ -1,3 +1,3 @@
-#sa permet d'afficher quelque chose a l'ecran
 #!/bin/bash
+# Ce script affiche "Hello, World!" à l'écran
 echo "Hello, World!"
