@@ -1,4 +1,5 @@
 #!/bin/bash
+
 # entrez le nom du fichier à verifier
 echo "entrez le nom du fichier à vérifier :"
 read  filename 
@@ -8,3 +9,5 @@ if [ -f "$filename" ]; then
 else
   echo "Le fichier '$filename' n'existe pas."
 fi
+
+exit 0
