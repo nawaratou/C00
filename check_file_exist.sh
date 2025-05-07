@@ -1,8 +1,9 @@
 #!/bin/bash
-# Ce script vérifie si un fichier passé en argument existe ou non
 
-[ -f "$1" ]; then
-    echo "Le fichier '$1' existe."
+read -p "Entrer le nom du fichier : " filename
 
-    echo "Le fichier '$1' n'existe pas."
-
+if [ -f "$filename" ]; then
+  echo "Le fichier '$filename' existe."
+else
+  echo "Le fichier '$filename' n'existe pas."
+fi
