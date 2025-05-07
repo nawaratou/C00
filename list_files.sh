@@ -1,6 +1,5 @@
 #!/bin/bash
-# Ce script affiche la liste des fichiers dans le répertoire courant
 
-# Utilisation de la commande `ls` pour lister les fichiers
+# Ce script affiche la liste des fichiers dans le répertoire courant
 echo "Liste des fichiers dans le répertoire courant :"
-ls -l
+ls -la
